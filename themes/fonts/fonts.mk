@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
     FontInterOverlay \
     FontManropeOverlay \
     FontMiLanProOverlay \
+    FontOnePlusSansOverlay \
     FontOppoSansOverlay \
     FontRobotoOverlay \
     FontUrbanistOverlay
