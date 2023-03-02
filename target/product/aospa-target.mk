@@ -35,7 +35,7 @@ $(call inherit-product, vendor/aospa/bootanimation/bootanimation.mk)
 
 # Camera
 PRODUCT_PACKAGES += \
-    GoogleCameraGo
+    Aperture
 
 # Charger
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
