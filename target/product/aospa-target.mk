@@ -75,11 +75,7 @@ PRODUCT_PACKAGES += \
     mkfs.exfat
 
 # Fonts
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/aospa/prebuilts/fonts/,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
-    vendor/aospa/target/config/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
-
-$(call inherit-product, external/google-fonts/lato/fonts.mk)
+$(call inherit-product, vendor/aospa/themes/fonts/fonts.mk)
 
 # Gestures
 PRODUCT_PACKAGES += \
@@ -103,6 +99,9 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.base@1.0.vendor \
     android.hidl.manager@1.0.vendor
+
+# Icons
+$(call inherit-product, vendor/aospa/themes/icons/icons.mk)
 
 # Include fs tools for dedicated recovery and ramdisk partitions.
 PRODUCT_PACKAGES += \
