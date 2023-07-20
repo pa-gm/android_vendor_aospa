@@ -77,6 +77,10 @@ PRODUCT_PACKAGES += \
 # Fonts
 $(call inherit-product, vendor/aospa/themes/fonts/fonts.mk)
 
+# Game Space
+PRODUCT_PACKAGES += \
+    GameSpace
+
 # Gestures
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
