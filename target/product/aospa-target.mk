@@ -118,6 +118,10 @@ PRODUCT_PACKAGES += \
     resize2fs.recovery \
     tune2fs.recovery
 
+# Init
+PRODUCT_PACKAGES += \
+    init.aospa.rc
+
 # Java Optimizations
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 SYSTEM_OPTIMIZE_JAVA := true
@@ -155,9 +159,6 @@ PRODUCT_PACKAGES += \
 #ifneq ($(filter RELEASE BETA,$(AOSPA_BUILDTYPE)),)
 #PRODUCT_PACKAGES += ParanoidHub
 #endif
-
-PRODUCT_PACKAGES += \
-    init.aospa-hub.rc
 
 # Paranoid Sense
 PRODUCT_PACKAGES += \
