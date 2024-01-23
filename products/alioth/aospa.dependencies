@@ -1,20 +1,20 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_xiaomi_alioth",
+        "remote":       "github",
+        "repository":   "pa-gm/android_device_xiaomi_alioth",
         "target_path":  "device/xiaomi/alioth",
         "revision":     "uvite"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_xiaomi_sm8250",
+        "remote":       "github",
+        "repository":   "pa-gm/android_kernel_xiaomi_alioth",
         "target_path":  "kernel/msm-4.19",
         "revision":     "uvite"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi",
+        "remote":       "github",
+        "repository":   "pa-gm/proprietary_vendor_xiaomi_alioth",
+        "target_path":  "vendor/xiaomi/alioth",
         "revision":     "uvite",
         "clone-depth":  "1"
     },
