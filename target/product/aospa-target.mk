@@ -26,8 +26,8 @@ PRODUCT_PACKAGES += \
 # AOSPA Version.
 $(call inherit-product, vendor/aospa/target/product/version.mk)
 
-# AOSPA private configuration - optional.
-$(call inherit-product-if-exists, vendor/aospa-priv/target/product/aospa-priv-target.mk)
+# AOSPA certified build workaround
+$(call inherit-product-if-exists, vendor/aospa/certs/config.mk)
 
 # APNs
 ifneq ($(TARGET_NO_TELEPHONY), true)

@@ -1,6 +1,9 @@
 # AOSPA app_overrides
 apps/*
 
+# AOSPA certified build workaround
+certs/
+
 # AOSPA Prebuilts
 prebuilt/
 
