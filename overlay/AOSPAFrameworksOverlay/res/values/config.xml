@@ -239,4 +239,7 @@
         <item>device_personalization_services/NotificationAssistant__max_importance_variance=0.5</item>
     </string-array>
 
+    <!-- Allow the gesture power + volume up to change the ringer mode while the device is interactive. -->
+    <bool name="config_volumeHushGestureEnabled">true</bool>
+
 </resources>
